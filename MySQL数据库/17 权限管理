@@ -1,0 +1,28 @@
+权限管理
+    1、创建账号
+        # 本地账号
+        create user 'egon1'@'localhost' identified by '123';  #mysql -uegon1 -p123
+        # 远程账号
+        create user 'egon1'@'192.18.31.10' identified by '123';  #mysql -uegon2 -p123 -h 服务端ip
+        create user 'egon1'@'192.18.31.%' identified by '123';  #mysql -uegon3 -p123 -h 服务端ip      31网段服务器都能登陆
+        create user 'egon1'@'%' identified by '123';  #mysql -uegon3 -p123 -h 服务端ip          全部服务器能ping通就能登
+
+    2、授权
+    user:*.*               所有库下的所有表
+    db：db1.*              精确到库
+    tables_priv：db1.t1    精确到表
+    columns_priv：         精确到字段
+
+
+    grant all on *.* to 'egon1'@'localhost';                              授予所有权限
+    grant select on *.* to 'egon1'@'localhost';                           授予select权限
+    revoke select on *.* from 'egon1'@'localhost';                        回收权限
+
+    grant select on db1.* to 'egon1'@'localhost';                         精确到库
+    revoke select on db1.* from 'egon1'@'localhost';
+
+
+    grant select on db1.t2 to 'egon1'@'localhost';                        精确到表
+    revoke select on db1.t2 from 'egon1'@'localhost';
+
+    grant select(id,name),update(age) on db1.t2 to 'egon1'@'localhost';   精确到字段

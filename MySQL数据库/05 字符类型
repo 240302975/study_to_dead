@@ -1,0 +1,43 @@
+char:定长
+varchar：变长
+
+#宽度指的是字符的个数
+create table t13(name char(5));
+create table t14(name varchar(5));
+
+insert into t13 values('李杰 '); #'李杰   ' 不足会补全
+insert into t14 values('李杰 '); #'李杰 '
+
+
+select char_length(name) from t13; #5
+select char_length(name) from t14; #3
+
+
+select name from t13 where name='李杰';   比较时不管末尾的空格
+select name from t13 where name like '李杰';
+
+
+
+
+name char(5)
+egon |alex |wxx  |
+
+
+name varchar(5)
+1bytes+egon|1bytes+alex|1bytes+wxx|
+4+egon|4+alex|3+wxx|
+
+
+
+总结
+#常用字符串系列：char与varchar
+注：虽然varchar使用起来较为灵活，但是从整个系统的性能角度来说，char数据类型的处理速度更快，有时甚至可以超出varchar处理速度的50%。因此，用户在设计数据库时应当综合考虑各方面的因素，以求达到最佳的平衡
+
+#其他字符串系列（效率：char>varchar>text）
+TEXT系列 TINYTEXT TEXT MEDIUMTEXT LONGTEXT
+BLOB 系列    TINYBLOB BLOB MEDIUMBLOB LONGBLOB
+BINARY系列 BINARY VARBINARY
+
+text：text数据类型用于保存变长的大字符串，可以组多到65535 (2**16 − 1)个字符。
+mediumtext：A TEXT column with a maximum length of 16,777,215 (2**24 − 1) characters.
+longtext：A TEXT column with a maximum length of 4,294,967,295 or 4GB (2**32 − 1) characters.

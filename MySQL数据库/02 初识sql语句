@@ -1,0 +1,52 @@
+SQL语言：
+主要用于存取数据、查询数据、更新数据和管理关系数据库系统,SQL语言由IBM开发。
+
+
+SQL语言分为3种类型：
+1、DDL语句    数据库定义语言： 数据库、表、视图、索引、存储过程，例如CREATE DROP ALTER
+2、DML语句    数据库操纵语言： 插入数据INSERT、删除数据DELETE、更新数据UPDATE、查询数据SELECT
+3、DCL语句    数据库控制语言： 例如控制用户的访问权限GRANT、REVOKE
+
+
+#1. 操作文件夹（库）
+    增：
+        create database db1 charset utf8;
+    查：
+        show create database db1;
+        show databases;
+    改：
+        alter database db1 charset latin1;
+    删除:
+        drop database db1;
+
+
+#2. 操作文件（表）
+    先切换到文件夹下：use db1
+    查看当前所在文件夹：select database();
+
+    增：
+        create table t1(id int,name char);
+    查：
+        查看当前库下所有的表：show tables;
+        show create table t1;
+        des t1;
+    改：
+        alter table t1 modify name char(3);
+        alter table t1 change name name1 char(2);
+    删：
+        drop table t1;
+
+
+#3. 操作文件中的内容/记录（记录）
+    增：
+        insert t1(id,name) values(1,'egon1'),(2,'egon2'),(3,'egon3');
+        insert into t1 values(1,'egon1'),(2,'egon2'),(3,'egon3');
+    查：
+        查看所有字段：select * from t1;
+        select id,name from db1.t1;
+    改：
+        全部修改：update t1 set name='sb' where id=2;
+        指定修改：update t1 set name='sb';
+    删：
+        指定删除：delete from t1 where id=1;
+        全部删除：delete from t1;

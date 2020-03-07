@@ -1,0 +1,87 @@
+1、什么是存储引擎？
+    存储引擎就是表的类型
+
+
+2、查看MySQL支持的存储引擎
+    show engines;
+
+
+3、指定表类型/存储引擎
+create table t1(id int)engine=innodb;
+create table t2(id int)engine=memory;
+create table t3(id int)engine=blackhole;
+create table t4(id int)engine=myisam;
+
+
+#memory，在重启mysql或者重启机器后，表内数据清空
+#blackhole，往表内插入任何数据，都相当于丢入黑洞，表内永远不存记录
+
+.frm   表结构
+.ibd   数据文件
+
+.MYD   myisam的data文件
+.MYI   myisam的索引文件
+
+
+### 表的增删改查
+一、表介绍
+    表的字段：表中的一条记录有对应的标题
+
+二、创建表
+        create table 表名(
+    字段名1 类型[(宽度) 约束条件],
+    字段名2 类型[(宽度) 约束条件],
+    字段名3 类型[(宽度) 约束条件]
+    );
+
+    #注意：
+    1. 在同一张表中，字段名是不能相同
+    2. 宽度和约束条件可选
+    3. 字段名和类型是必须的
+
+    往表中插入数据：
+        insert into t1 values
+        insert into t1(id) values
+
+三、查看表结构
+    describe t1; #查看表结构，可简写为desc 表名
+    show create table t1\G; #查看表详细结构，可加\G
+
+四、修改表结构
+    语法：
+    1. 修改表名
+          ALTER TABLE 表名
+                              RENAME 新表名;
+
+    2. 增加字段
+          ALTER TABLE 表名
+                              ADD 字段名  数据类型 [完整性约束条件…],
+                              ADD 字段名  数据类型 [完整性约束条件…];
+          ALTER TABLE 表名
+                              ADD 字段名  数据类型 [完整性约束条件…]  FIRST;
+          ALTER TABLE 表名
+                              ADD 字段名  数据类型 [完整性约束条件…]  AFTER 字段名;
+
+    3. 删除字段
+          ALTER TABLE 表名
+                              DROP 字段名;
+
+    4. 修改字段
+          ALTER TABLE 表名
+                              MODIFY  字段名 数据类型 [完整性约束条件…];
+          ALTER TABLE 表名
+                              CHANGE 旧字段名 新字段名 旧数据类型 [完整性约束条件…];
+          ALTER TABLE 表名
+                              CHANGE 旧字段名 新字段名 新数据类型 [完整性约束条件…];
+
+五、复制表
+    复制表结构＋记录 （key不会复制: 主键、外键和索引）
+    create table new_service select * from service;
+
+    只复制表结构
+    create table new1_service select * from service where 1=2;        //条件为假，查不到任何记录
+
+    create table t4 like employees;        //同理
+
+六、删除表
+    DROP TABLE 表名;

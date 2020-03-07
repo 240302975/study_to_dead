@@ -1,0 +1,18 @@
+enum 单选 只能在给定的范围内选一个值，如性别 sex 男male/女female
+
+set 多选 在给定的范围内可以选择一个或一个以上的值（爱好1,爱好2,爱好3...）
+
+create table consumer(
+	id int,
+	name char(16),
+	sex enum('male','female','other'),
+	level enum('vip1','vip2','vip3'),
+	hobbies set('play','music','read','run')
+);
+
+
+insert into consumer values
+(1,'egon','male','vip2','music,read');
+
+insert into consumer values
+(1,'egon','xxxxx','vip2','music,read');

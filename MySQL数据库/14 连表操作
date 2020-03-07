@@ -1,0 +1,30 @@
+#重点：外链接语法
+
+SELECT 字段列表
+    FROM 表1 INNER|LEFT|RIGHT JOIN 表2
+    ON 表1.字段 = 表2.字段;
+
+
+内连接：只取两张表的共同部分
+select * from employee inner join department on employee.dep_id = department.id ;
+
+左连接:在内连接的基础上保留左表的记录
+select * from employee left join department on employee.dep_id = department.id ;
+
+右连接：在内连接的基础上保留右表的记录
+select * from employee right join department on employee.dep_id = department.id ;
+
+全外连接：在内连接的基础上保留左右两表没有对应关系的记录
+select * from employee full join department on employee.dep_id = department.id ;      #不支持
+
+
+select * from employee left join department on employee.dep_id = department.id
+union
+select * from employee right join department on employee.dep_id = department.id;
+
+
+# 查询平均年龄大于30岁的部门名
+select department.name,avg(age) from employee inner join department on employee.dep_id = department.id
+    group by department.name
+    having avg(age)>30
+;

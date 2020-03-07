@@ -1,0 +1,60 @@
+# '开放-封闭'原则
+"""
+封闭：已实现的功能代码块不应该被修改
+开放：对现有功能的扩展开放
+"""
+account = {
+    "is_authenticated": False,  # 用户登录了就把这个改成True
+    "username": "alex",  # 假装这是DB里存的用户信息
+    "password": "abc123"  # 假装这是DB里存的用户信息
+}
+
+
+def login(func):
+    def inner(*args, **kwargs):  # 嵌套
+        if account["is_authenticated"] is False:
+            username = input("user:")
+            password = input("pasword:")
+            if username == account["username"] and password == account["password"]:
+                print("welcome login....")
+                account["is_authenticated"] = True
+                func(*args, **kwargs)  # 认证成功，执行功能函数
+            else:
+                print("wrong username or password!")
+        else:
+            print("用户已登录，验证通过...")
+            func(*args, **kwargs)  # 认证成功，执行功能函数
+    return inner
+
+
+def home():
+    print("---首页----")
+
+
+@login
+def america():
+    # login()  # 执行前加上验证
+    print("----欧美专区----")
+
+
+def japan():
+    print("----日韩专区----")
+
+
+# @pay_money
+@login  # 装饰器， 语法糖
+def henan(vip_level):
+    # login()  # 执行前加上验证
+    if vip_level > 3:
+        print("解锁本专区所有高级玩法")
+    else:
+        print("----河南专区vip----")
+
+
+# america = login(america) # inner 的内存地址
+# henan = login(henan)
+
+
+home()
+america()  # inner()
+henan(4)  # inner(4)
