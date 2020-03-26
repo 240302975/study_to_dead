@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>字符串和数值相互转换</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var str = '13131.9090013';
+		// 字符串转数值类型
+		console.log(parseInt(str)); //转换整型
+		console.log(parseFloat(str)); //转换浮点型
+		console.log(typeof parseFloat(str)); //number
+		var a  = Number(str);
+		console.log(isNaN(a)); //NaN  不是一个数值
+
+		var  num = 1313.179;
+		// 强制类型转换
+		console.log(num.toString());  //数值转字符串
+		console.log(typeof num.toString());
+		console.log(String(num));
+
+		// 隐式转换
+		console.log('' + num);
+		console.log(''.concat(num));
+		console.log(Number(num.toFixed(2)));  //指定保留位数，四舍五入
+
+	</script>
+</body>
+</html>

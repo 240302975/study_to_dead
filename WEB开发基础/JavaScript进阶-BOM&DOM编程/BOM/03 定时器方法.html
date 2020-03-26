@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>setTimeout()| setInterval()</title>
+</head>
+<body>
+	<script type="text/javascript">
+
+		// 延迟性的操作
+		window.setTimeout(function(){
+			console.log('mjj');
+		},0)//在指定的毫秒数后调用函数或计算表达式。
+		console.log('xiongdada');
+		var num = 0;
+		var timer = null;
+		//按照指定的周期（以毫秒计）来调用函数或计算表达式。
+		timer = setInterval(function(){
+			num++;
+			if (num > 5) {
+				clearInterval(timer);//取消由 setInterval() 设置的 timeout。
+				return;//阻止，跳出
+			}
+			console.log('num:'+ num);
+		},1000);
+
+		
+	</script>
+	
+</body>
+</html>

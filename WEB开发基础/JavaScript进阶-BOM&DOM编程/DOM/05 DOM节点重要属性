@@ -1,0 +1,28 @@
+在文档对象模型（DOM）中，每一个节点都是一个对象。DOM节点有三个重要的属性：
+
+1.nodeName:节点的名称
+2.nodeValue:节点的值
+3.nodeType:节点的类型
+
+
+1.nodeName属性：节点的名称，是只读
+
+	1.元素节点的nodeName与标签名相同
+	2.属性节点的nodeName与属性的名称相同
+	3.文档节点的nodeName永远是#text
+	4.文档节点的nodeName永远是#document
+
+2.nodeValue属性:节点的值
+
+	1.元素节点的nodeValue是undefined或null
+	2.文本节点的nodeValue是文本自身
+	3.属性节点的nodeValue是属性的值
+
+3.nodeType的属性:节点的类型，是只读的
+	以下常用的几种节点类型:
+	元素类型   节点类型
+	元素       1
+	属性       2
+	文本       3
+	注释       8
+	文档       9

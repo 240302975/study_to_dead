@@ -1,0 +1,26 @@
+DOM  
+Document  Object Model 文档对象模型
+var person = {
+	name:'mjj',
+	fav:function(){
+
+	}
+}
+js中对象分类三种：
+1.用户定义对象 
+2.内建对象 Array Date Math
+3.宿主对象（JS所运行的环境提供的对象比如：BOM中的Window、DOM中的document）
+
+
+Model  Map(地图)
+
+
+HTML DOM 模型被结构化为对象树：
+
+parent child  sibling
+
+	爷爷 
+
+ 爸爸             叔叔
+你   妹妹       表兄弟
+
