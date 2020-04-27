@@ -27,7 +27,6 @@ cur.close()
 conn.close()
 
 '''
-
 web框架 yuan功能总结
 
 main.py: 启动文件,封装了socket
@@ -39,7 +38,4 @@ main.py: 启动文件,封装了socket
 3 templates文件夹: html文件   -----模板
 
 4 models: 在项目启动前,在数据库中创建表结构    ----- 与数据库相关
-
-
-
 '''
