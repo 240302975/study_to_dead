@@ -45,7 +45,7 @@ def auth(request):
     user = data.get(b"user")[0].decode("utf8")
     pwd = data.get(b"pwd")[0].decode("utf8")
 
-    # 连接数据库
+    # 连接数据库查询
     import pymysql
     conn = pymysql.connect(host='127.0.0.1', port=3306, user='root', passwd='', db='web_yuan')  # db：库名
     # 创建游标
