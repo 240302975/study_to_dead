@@ -19,7 +19,7 @@ from django.urls import path,re_path,include,register_converter
 from app01.urlconvert import MonConvert
 
 
-# 注册定义的url转换器
+# 注册定义的url转换器，起名
 register_converter(MonConvert,"mm")
 
 from app01 import views
