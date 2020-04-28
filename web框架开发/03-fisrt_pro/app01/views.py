@@ -54,7 +54,7 @@ def path_month(request, month):
 
 
 def login(request):
-    print(request.method)
+    print(request.method)  # 获得请求方式
 
     if request.method == "GET":
         return render(request, "login.html")
