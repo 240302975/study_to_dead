@@ -55,6 +55,8 @@
       <workItem from="1588516889327" duration="1395000" />
       <workItem from="1588571353541" duration="1245000" />
       <workItem from="1588593149834" duration="3900000" />
+      <workItem from="1588771427693" duration="42000" />
+      <workItem from="1588771479331" duration="627000" />
     </task>
     <task id="LOCAL-00001" summary="ORM">
       <created>1588516997085</created>
@@ -113,5 +115,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="644" y="291" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588595249959" />
+    <state x="861" y="424" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588771449874">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="861" y="424" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588771449874" />
   </component>
 </project>
