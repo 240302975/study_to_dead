@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0ef9170-e2a3-4648-95a8-289444f67442" name="Default Changelist" comment="整理文件夹" />
+    <list default="true" id="d0ef9170-e2a3-4648-95a8-289444f67442" name="Default Changelist" comment="books_02">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +22,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -43,7 +46,6 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0b7a0736-2101-44e7-a9d3-58d892dec55d" name="默认更改列表" comment="" />
       <created>1588424730697</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -53,6 +55,8 @@
       <workItem from="1588516889327" duration="1395000" />
       <workItem from="1588571353541" duration="1245000" />
       <workItem from="1588593149834" duration="3900000" />
+      <workItem from="1588749363960" duration="1402000" />
+      <workItem from="1588754338752" duration="592000" />
     </task>
     <task id="LOCAL-00001" summary="ORM">
       <created>1588516997085</created>
@@ -82,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588594341951</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="books_02">
+      <created>1588749449627</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1588749449627</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,25 +103,30 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="ORM" />
     <MESSAGE value="bookms" />
-    <option name="LAST_COMMIT_MESSAGE" value="bookms" />
+    <MESSAGE value="books_02" />
+    <option name="LAST_COMMIT_MESSAGE" value="books_02" />
   </component>
   <component name="WindowStateProjectService">
     <state x="777" y="226" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588427216224">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="777" y="226" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588427216224" />
-    <state x="1095" y="154" key="CommitChangelistDialog2" timestamp="1588594340507">
+    <state x="1095" y="154" key="CommitChangelistDialog2" timestamp="1588749447884">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1095" y="154" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588594340507" />
-    <state x="554" y="203" key="SettingsEditor" timestamp="1588597370485">
+    <state x="1095" y="154" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588749447884" />
+    <state x="554" y="203" key="SettingsEditor" timestamp="1588749739454">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="554" y="203" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588597370485" />
-    <state x="644" y="291" key="Vcs.Push.Dialog.v2" timestamp="1588595249959">
+    <state x="554" y="203" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588749739454" />
+    <state x="644" y="291" key="Vcs.Push.Dialog.v2" timestamp="1588749744748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="644" y="291" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588595249959" />
+    <state x="644" y="291" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588749744748" />
+    <state x="909" y="496" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588749378814">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="909" y="496" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588749378814" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/study_to_dead$111.coverage" NAME="111 Coverage Results" MODIFIED="1586438261597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
