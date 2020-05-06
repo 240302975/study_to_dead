@@ -7,5 +7,11 @@
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:E:\study_to_dead\web框架开发\bookms\db.sqlite3</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="db [2]" uuid="31ecd8c9-daa1-4fbe-be85-1821445a4b1f">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:E:\study_to_dead\web框架开发\ORM2\db.sqlite3</jdbc-url>
+    </data-source>
   </component>
 </project>
