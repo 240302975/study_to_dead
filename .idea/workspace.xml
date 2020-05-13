@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b7a0736-2101-44e7-a9d3-58d892dec55d" name="默认更改列表" comment="" />
+    <list default="true" id="0b7a0736-2101-44e7-a9d3-58d892dec55d" name="默认更改列表" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Update__at_2020_5_6_21_17___.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Update__at_2020_5_6_21_17___.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web框架开发/ORM2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/web框架开发/ORM2/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +36,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.startup.tasks" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -86,6 +91,10 @@
       <workItem from="1588771479331" duration="2154000" />
       <workItem from="1588776632248" duration="2362000" />
       <workItem from="1588780068267" duration="126000" />
+      <workItem from="1588830413002" duration="3125000" />
+      <workItem from="1589332506146" duration="438000" />
+      <workItem from="1589333053224" duration="2744000" />
+      <workItem from="1589368788877" duration="4073000" />
     </task>
     <task id="LOCAL-00001" summary="ORM">
       <created>1588516997085</created>
@@ -143,6 +152,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="ORM2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="586" y="198" key="#Inspections" timestamp="1588830471416">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1588830471416" />
     <state x="777" y="226" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588427216224">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -167,14 +180,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="819" height="139" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588776431239" />
-    <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1588775268684">
+    <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1589337432524">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1588775268684" />
-    <state x="554" y="203" key="SettingsEditor" timestamp="1588780192998">
+    <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1589337432524" />
+    <state x="554" y="203" key="SettingsEditor" timestamp="1589337501063">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="554" y="203" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588780192998" />
+    <state x="554" y="203" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589337501063" />
     <state x="644" y="291" key="Vcs.Push.Dialog.v2" timestamp="1588780083439">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
