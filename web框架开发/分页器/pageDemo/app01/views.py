@@ -25,7 +25,7 @@ def index(request):
 
     # 分页器
 
-    paginator = Paginator(book_list, 3)  #
+    paginator = Paginator(book_list, 3)
 
     print("count:", paginator.count)  # 数据总数
     print("num_pages", paginator.num_pages)  # 总页数
