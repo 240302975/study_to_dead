@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b7a0736-2101-44e7-a9d3-58d892dec55d" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/web框架开发/Ajax/Ajax" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/Ajax/Ajaxdemo.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Update__at_2020_5_6_21_17___.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Update__at_2020_5_6_21_17___.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web框架开发/Ajax/Ajaxdemo/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web框架开发/Ajax/Ajaxdemo/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +42,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.startup.tasks" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -96,13 +96,11 @@
       <workItem from="1588771427693" duration="42000" />
       <workItem from="1588771479331" duration="2154000" />
       <workItem from="1588776632248" duration="2362000" />
-      <workItem from="1588780068267" duration="336000" />
-      <workItem from="1588854272392" duration="2952000" />
-      <workItem from="1588859326948" duration="2315000" />
-      <workItem from="1589541348215" duration="6523000" />
-      <workItem from="1589596328309" duration="3055000" />
-      <workItem from="1589625140156" duration="7020000" />
-      <workItem from="1589725585320" duration="670000" />
+      <workItem from="1588780068267" duration="126000" />
+      <workItem from="1588830413002" duration="3125000" />
+      <workItem from="1589332506146" duration="438000" />
+      <workItem from="1589333053224" duration="2744000" />
+      <workItem from="1589368788877" duration="4073000" />
     </task>
     <task id="LOCAL-00001" summary="ORM">
       <created>1588516997085</created>
@@ -146,21 +144,7 @@
       <option name="project" value="LOCAL" />
       <updated>1588780078751</updated>
     </task>
-    <task id="LOCAL-00007" summary="ORM2">
-      <created>1588780290957</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1588780290957</updated>
-    </task>
-    <task id="LOCAL-00008" summary="ORM2">
-      <created>1589632841756</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1589632841756</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,10 +163,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="777" y="226" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588427216224" />
-    <state x="1087" y="154" key="CommitChangelistDialog2" timestamp="1589632829789">
+    <state x="1095" y="154" key="CommitChangelistDialog2" timestamp="1588780077738">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1087" y="154" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589632829789" />
+    <state x="1095" y="154" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588780077738" />
     <state width="819" height="139" key="GridCell.Tab.0.bottom" timestamp="1588776431239">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -202,16 +186,12 @@
     <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1589557199128">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1589557199128" />
-    <state x="820" y="457" width="425" height="267" key="MultipleFileMergeDialog" timestamp="1588780242448">
+    <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1589337432524" />
+    <state x="554" y="203" key="SettingsEditor" timestamp="1589337501063">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="820" y="457" width="425" height="267" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588780242448" />
-    <state x="554" y="203" key="SettingsEditor" timestamp="1589598256808">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="554" y="203" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589598256808" />
-    <state x="644" y="291" key="Vcs.Push.Dialog.v2" timestamp="1589632850746">
+    <state x="554" y="203" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589337501063" />
+    <state x="644" y="291" key="Vcs.Push.Dialog.v2" timestamp="1588780083439">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="644" y="291" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589632850746" />
@@ -219,10 +199,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1358" y="302" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589632812145" />
-    <state x="861" y="424" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588855535398">
+    <state x="861" y="424" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589781378955">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="861" y="424" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588855535398" />
+    <state x="861" y="424" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589781378955" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/study_to_dead$manage.coverage" NAME="manage Coverage Results" MODIFIED="1588775333575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web框架开发/ORM2" />
