@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b7a0736-2101-44e7-a9d3-58d892dec55d" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Update__at_2020_5_6_21_17___.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Update__at_2020_5_6_21_17___.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web框架开发/Ajax/Ajaxdemo/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web框架开发/Ajax/Ajaxdemo/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web框架开发/Ajax/Ajaxdemo/templates/file_put.html" beforeDir="false" afterPath="$PROJECT_DIR$/web框架开发/Ajax/Ajaxdemo/templates/file_put.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +41,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.startup.tasks" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -144,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588780078751</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ajax登陆验证">
+      <created>1589783889133</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1589783889133</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,7 +161,8 @@
     <MESSAGE value="ORM" />
     <MESSAGE value="bookms" />
     <MESSAGE value="ORM2" />
-    <option name="LAST_COMMIT_MESSAGE" value="ORM2" />
+    <MESSAGE value="ajax登陆验证" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajax登陆验证" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -163,10 +170,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="777" y="226" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588427216224" />
-    <state x="1095" y="154" key="CommitChangelistDialog2" timestamp="1588780077738">
+    <state x="1095" y="154" key="CommitChangelistDialog2" timestamp="1589783886572">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1095" y="154" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588780077738" />
+    <state x="1095" y="154" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589783886572" />
     <state width="819" height="139" key="GridCell.Tab.0.bottom" timestamp="1588776431239">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -187,14 +194,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1589337432524" />
-    <state x="554" y="203" key="SettingsEditor" timestamp="1589337501063">
+    <state x="554" y="203" key="SettingsEditor" timestamp="1589783938667">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="554" y="203" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589337501063" />
-    <state x="644" y="291" key="Vcs.Push.Dialog.v2" timestamp="1588780083439">
+    <state x="554" y="203" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589783938667" />
+    <state x="644" y="291" key="Vcs.Push.Dialog.v2" timestamp="1589783944151">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="644" y="291" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589632850746" />
+    <state x="644" y="291" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589783944151" />
     <state x="1358" y="302" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1589632812145">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
