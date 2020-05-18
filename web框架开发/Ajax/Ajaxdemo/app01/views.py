@@ -57,7 +57,7 @@ def file_put(request):
         print("POST",request.POST) # if contentType==urlencoded ,request.POST才有数据
 
         print(request.FILES)
-        file_obj=request.FILES.get("avatar")
+        file_obj=request.FILES.get("avatar")  # request.FILES中才能把文件取到
         with open(file_obj.name,"wb") as f:
             for line in file_obj:
                 f.write(line)
