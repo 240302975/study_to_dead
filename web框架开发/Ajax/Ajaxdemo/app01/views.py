@@ -76,6 +76,6 @@ def file_put(request):
 ContentType:json    #urlencoed
 请求体 {"a":"1","b":"2"}            #a=1&b=2&c=3
 
-
+文件上传：enctype="multipart/form-data
 '''
 

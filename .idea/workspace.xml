@@ -157,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589788717106</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ajax上传文件">
+      <created>1589789391673</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1589789391673</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,10 +185,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="777" y="226" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588427216224" />
-    <state x="1095" y="154" key="CommitChangelistDialog2" timestamp="1589788715545">
+    <state x="1095" y="154" key="CommitChangelistDialog2" timestamp="1589789390037">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1095" y="154" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589788715545" />
+    <state x="1095" y="154" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589789390037" />
     <state width="819" height="139" key="GridCell.Tab.0.bottom" timestamp="1588776431239">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -206,10 +213,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="554" y="203" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589783938667" />
-    <state x="644" y="291" key="Vcs.Push.Dialog.v2" timestamp="1589788721785">
+    <state x="644" y="291" key="Vcs.Push.Dialog.v2" timestamp="1589789396197">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="644" y="291" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589788721785" />
+    <state x="644" y="291" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589789396197" />
     <state x="1358" y="302" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1589632812145">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
