@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b7a0736-2101-44e7-a9d3-58d892dec55d" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/web框架开发/Ajax/Ajaxdemo/templates/file_put.html" beforeDir="false" afterPath="$PROJECT_DIR$/web框架开发/Ajax/Ajaxdemo/templates/file_put.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Update__at_2020_5_6_21_17___.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Update__at_2020_5_6_21_17___.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,11 +95,13 @@
       <workItem from="1588771427693" duration="42000" />
       <workItem from="1588771479331" duration="2154000" />
       <workItem from="1588776632248" duration="2362000" />
-      <workItem from="1588780068267" duration="126000" />
-      <workItem from="1588830413002" duration="3125000" />
-      <workItem from="1589332506146" duration="438000" />
-      <workItem from="1589333053224" duration="2744000" />
-      <workItem from="1589368788877" duration="4073000" />
+      <workItem from="1588780068267" duration="336000" />
+      <workItem from="1588854272392" duration="2952000" />
+      <workItem from="1588859326948" duration="2315000" />
+      <workItem from="1589541348215" duration="6523000" />
+      <workItem from="1589596328309" duration="3055000" />
+      <workItem from="1589625140156" duration="7020000" />
+      <workItem from="1589725585320" duration="670000" />
     </task>
     <task id="LOCAL-00001" summary="ORM">
       <created>1588516997085</created>
@@ -170,7 +173,7 @@
       <option name="project" value="LOCAL" />
       <updated>1589790841007</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,9 +184,7 @@
     <MESSAGE value="ORM" />
     <MESSAGE value="bookms" />
     <MESSAGE value="ORM2" />
-    <MESSAGE value="ajax登陆验证" />
-    <MESSAGE value="ajax上传文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajax上传文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="ORM2" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -191,10 +192,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="777" y="226" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588427216224" />
-    <state x="1095" y="154" key="CommitChangelistDialog2" timestamp="1589790839408">
+    <state x="1087" y="154" key="CommitChangelistDialog2" timestamp="1589632829789">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1095" y="154" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589790839408" />
+    <state x="1087" y="154" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589632829789" />
     <state width="819" height="139" key="GridCell.Tab.0.bottom" timestamp="1588776431239">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -218,11 +219,15 @@
     <state x="554" y="203" key="SettingsEditor" timestamp="1589783938667">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="554" y="203" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589783938667" />
-    <state x="644" y="291" key="Vcs.Push.Dialog.v2" timestamp="1589790847337">
+    <state x="820" y="457" width="425" height="267" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588780242448" />
+    <state x="554" y="203" key="SettingsEditor" timestamp="1589598256808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="644" y="291" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589790847337" />
+    <state x="554" y="203" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589598256808" />
+    <state x="644" y="291" key="Vcs.Push.Dialog.v2" timestamp="1589632850746">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="644" y="291" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589632850746" />
     <state x="1358" y="302" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1589632812145">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
