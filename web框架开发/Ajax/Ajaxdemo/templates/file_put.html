@@ -79,7 +79,7 @@
     $(".btn").click(function(){
 
         var formdata=new FormData();
-        formdata.append("user",$("#user").val());
+        formdata.append("user",$("#user").val());//append键值
         formdata.append("avatar",$("#avatar")[0].files[0]);
 
         $.ajax({
@@ -87,7 +87,7 @@
             type:"post",
             contentType:false,//编码
             processData:false,//预处理
-            data:formdata,
+            data:formdata,//formdata对象放到data对象里
             success:function(data){
                 console.log(data)
             }
