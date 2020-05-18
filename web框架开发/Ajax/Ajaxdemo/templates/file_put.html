@@ -21,7 +21,7 @@
 
 <form action="" method="post" enctype="multipart/form-data">  //规定在发送到服务器之前应该如何对表单数据进行编码。
      用户名<input type="text" name="user">
-     头像  <input type="file" name="avatar">
+     头像 <input type="file" name="avatar">
     <input type="submit">
 </form>
 
@@ -37,44 +37,39 @@
 
 <script>
 
-{##}
-{#    $(".btn").click(function(){#}
-{##}
-{#        $.ajax({#}
-{#            url:"",#}
-{#            type:"post",#}
-{#            contentType:"application/json",#}
-{#            data:JSON.stringify({#}
-{#                a:1,#}
-{#                b:2#}
-{#            }),#}
-{#            success:function(data){#}
-{#                console.log(data)#}
-{#            }#}
-{#        })#}
-{##}
-{##}
-{##}
-{#    })#}
-{#    #}
+
+    $(".btn").click(function(){
+
+        $.ajax({
+            url:"",
+            type:"post",
+            contentType:"application/json",
+            data:JSON.stringify({
+                a:1,
+                b:2
+            }),
+            success:function(data){
+                console.log(data)
+            }
+        })
+    })
 
 
 
-{#    $(".btn").click(function(){#}
-{##}
-{#        $.ajax({#}
-{#            url:"",#}
-{#            type:"post",#}
-{#            data:{#}
-{#                a:1,#}
-{#                b:2#}
-{#            },#}
-{#            success:function(data){#}
-{#                console.log(data)#}
-{#            }#}
-{#        })#}
-{##}
-{#    })#}
+    $(".btn").click(function(){
+
+        $.ajax({
+            url:"",
+            type:"post",
+            data:{
+                a:1,
+                b:2
+            },
+            success:function(data){
+                console.log(data)
+            }
+        })
+    })
 
 
 
