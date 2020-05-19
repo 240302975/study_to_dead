@@ -3,7 +3,11 @@ from django.shortcuts import render,HttpResponse
 # Create your views here.
 
 
+from django import forms
 
+class Userfrom(forms.Form):
+    name=forms.CharField(min_length=4) # 是否为字符串
+    email=forms.EmailField() # 是否为字符串
 
 
 from app01.myforms import *
@@ -43,7 +47,7 @@ def reg(request):
         '''
 
         form.is_valid()   :返回布尔值
-        form.cleaned_data :{"name":"yuan","email":"123@qq.com"}
+        form.cleaned_data :{"name":"yuan","email":"123@qq.com"}  通过校验的值,返回类型为字典dict型
         form.errors       :{"name":[".........."]}
 
         '''

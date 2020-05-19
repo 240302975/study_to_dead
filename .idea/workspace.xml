@@ -2,37 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b7a0736-2101-44e7-a9d3-58d892dec55d" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/.idea/dataSources.ids" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/.idea/dictionaries/yuan.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/.idea/dictionaries/yuanhao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/.idea/formsdemo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/app01/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/app01/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/app01/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/app01/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/app01/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/app01/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/app01/myforms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/app01/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/app01/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/formsdemo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/formsdemo/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/formsdemo/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/formsdemo/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/templates/reg.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Update__at_2020_5_6_21_17___.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Update__at_2020_5_6_21_17___.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/app01/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/app01/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/templates/reg.html" beforeDir="false" afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/templates/reg.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +178,21 @@
       <option name="project" value="LOCAL" />
       <updated>1589806927478</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="forms组件">
+      <created>1589851192951</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1589851192951</updated>
+    </task>
+    <task id="LOCAL-00012" summary="forms组件">
+      <created>1589851429519</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1589851429519</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,7 +205,8 @@
     <MESSAGE value="ORM2" />
     <MESSAGE value="ajax" />
     <MESSAGE value="ajax分页器" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajax分页器" />
+    <MESSAGE value="forms组件" />
+    <option name="LAST_COMMIT_MESSAGE" value="forms组件" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -227,10 +214,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="777" y="226" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588427216224" />
-    <state x="1095" y="154" key="CommitChangelistDialog2" timestamp="1589790839408">
+    <state x="1051" y="154" key="CommitChangelistDialog2" timestamp="1589851428137">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1095" y="154" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589790839408" />
+    <state x="1051" y="154" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589851428137" />
     <state width="819" height="139" key="GridCell.Tab.0.bottom" timestamp="1588776431239">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -256,10 +243,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="554" y="203" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589851162320" />
-    <state x="644" y="291" key="Vcs.Push.Dialog.v2" timestamp="1589790847337">
+    <state x="644" y="291" key="Vcs.Push.Dialog.v2" timestamp="1589851199892">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="644" y="291" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589790847337" />
+    <state x="644" y="291" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589851199892" />
     <state x="1358" y="302" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1589632812145">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
