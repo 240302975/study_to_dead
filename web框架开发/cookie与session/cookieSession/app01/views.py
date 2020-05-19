@@ -24,7 +24,7 @@ def login(request):
             '''
             response = HttpResponse("登录成功!")
             # response.set_cookie("is_login",True,max_age=15)
-            response.set_cookie("is_login", True)
+            response.set_cookie("is_login", True)  # 向客户端发送一个 HTTP cookie。
             import datetime
             # date=datetime.datetime(year=2019,month=5,day=29,hour=14,minute=34)
             # response.set_cookie("username",user.user,expires=date)
@@ -35,12 +35,12 @@ def login(request):
 
 
 def index(request):
-    print("index:", request.COOKIES)
+    print("index:", request.COOKIES)  # 封装了所有的cookies键值
 
     is_login = request.COOKIES.get("is_login")
 
     if is_login:
-        username = request.COOKIES.get("username")
+        username = request.COOKIES.get("username")  # 取到cookies
 
         import datetime
 
