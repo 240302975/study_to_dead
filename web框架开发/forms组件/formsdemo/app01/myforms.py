@@ -5,20 +5,20 @@ from django import forms
 from django.forms import widgets
 from app01.models import UserInfo
 
-from django.core.exceptions import NON_FIELD_ERRORS, ValidationError
+from django.core.exceptions import NON_FIELD_ERRORS, ValidationError  # 引入错误
 
 class UserForm(forms.Form):
-    name=forms.CharField(min_length=4,label="用户名",error_messages={"required":"该字段不能为空"},
+    name=forms.CharField(min_length=4,label="用户名",error_messages={"required":"该字段不能为空"},  # required为空错误
                          widget=widgets.TextInput(attrs={"class":"form-control"})
                          )
     pwd=forms.CharField(min_length=4,label="密码",
                         widget=widgets.PasswordInput(attrs={"class":"form-control"})
                         )
     r_pwd=forms.CharField(min_length=4,label="确认密码",error_messages={"required":"该字段不能为空"},widget=widgets.TextInput(attrs={"class":"form-control"}))
-    email=forms.EmailField(label="邮箱",error_messages={"required":"该字段不能为空","invalid":"格式错误"},widget=widgets.TextInput(attrs={"class":"form-control"}))
+    email=forms.EmailField(label="邮箱",error_messages={"required":"该字段不能为空","invalid":"格式错误"},widget=widgets.TextInput(attrs={"class":"form-control"}))  # invalid格式错误
     tel=forms.CharField(label="手机号",widget=widgets.TextInput(attrs={"class":"form-control"}))
 
-
+    # forms局部钩子
     def clean_name(self):
 
         val=self.cleaned_data.get("name")
@@ -28,7 +28,7 @@ class UserForm(forms.Form):
         if not ret:
             return val
         else:
-            raise ValidationError("该用户已注册!")
+            raise ValidationError("该用户已注册!")  # 抛出错误
 
     def clean_tel(self):
 
