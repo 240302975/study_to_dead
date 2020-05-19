@@ -53,32 +53,32 @@
 
             </form>
 
-            {#<h3>forms组件渲染方式2</h3>#}
-            {##}
-            {#<form action="" method="post" novalidate>#}
-            {#     {% csrf_token %}#}
-            {##}
-            {#    {% for field in form %}#}
-            {##}
-            {#        <div>#}
-            {#            <label for="">{{ field.label }}</label>#}
-            {#            {{ field }}#}
-            {#        </div>#}
-            {##}
-            {#    {% endfor %}#}
-            {##}
-            {#     <input type="submit">#}
-            {#</form>#}
-            {##}
-            {#<h3>forms组件渲染方式3</h3>#}
-            {##}
-            {#<form action="" method="post">#}
-            {#     {% csrf_token %}#}
-            {##}
-            {#     {{ form.as_p }}#}
-            {##}
-            {#     <input type="submit">#}
-            {#</form>#}
+            <h3>forms组件渲染方式2</h3>
+
+            <form action="" method="post" novalidate>
+                 {% csrf_token %}
+
+                {% for field in form %}
+
+                    <div>
+                        <label for="">{{ field.label }}</label>
+                        {{ field }}
+                    </div>
+
+                {% endfor %}
+
+                 <input type="submit">
+            </form>
+
+            <h3>forms组件渲染方式3</h3>
+
+            <form action="" method="post">
+                 {% csrf_token %}
+
+                 {{ form.as_p }}
+
+                 <input type="submit">
+            </form>
 
 
         </div>
