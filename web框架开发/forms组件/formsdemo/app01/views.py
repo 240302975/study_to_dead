@@ -3,13 +3,6 @@ from django.shortcuts import render,HttpResponse
 # Create your views here.
 
 
-from django import forms
-
-class Userfrom(forms.Form):
-    name=forms.CharField(min_length=4) # 是否为字符串
-    email=forms.EmailField() # 是否为字符串
-
-
 from app01.myforms import *
 
 
@@ -30,7 +23,7 @@ def reg(request):
             print(form.cleaned_data)  # {"name":"yuan","email":"123@qq.com"}
         else:
             print(form.cleaned_data)  # {"email":"123@qq.com"}
-            # print(form.errors)        # {"name":[".........."]}
+            # print(form.errors)        # {"name":[".........."]}  错误的键以及对应的信息
             # print(type(form.errors))  # ErrorDict
             # print(form.errors.get("name"))
             # print(type(form.errors.get("name")))    # ErrorList
