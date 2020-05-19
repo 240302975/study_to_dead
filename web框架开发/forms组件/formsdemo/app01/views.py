@@ -15,7 +15,7 @@ def reg(request):
         #form=UserForm({"name":"yu","email":"123@qq.com","xxxx":"alex"})
 
 
-        form=UserForm(request.POST) # form表单的name属性值应该与forms组件字段名称一致
+        form=UserForm(request.POST) # form表单的name属性值应该与forms组件字段名称一致。已绑定数据
 
         print(form.is_valid()) # 返回布尔值
 
@@ -46,6 +46,6 @@ def reg(request):
         '''
 
 
-    form=UserForm()
+    form=UserForm()  # 未绑定数据的
 
     return render(request,"reg.html",locals())
