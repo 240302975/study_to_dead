@@ -27,7 +27,7 @@ def reg(request):
             # print(type(form.errors))  # ErrorDict
             # print(form.errors.get("name"))
             # print(type(form.errors.get("name")))    # ErrorList
-            # print(form.errors.get("name")[0])
+            # print(form.errors.get("name")[0])       #取错误信息
 
 
             #   全局钩子错误
