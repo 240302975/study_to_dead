@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b7a0736-2101-44e7-a9d3-58d892dec55d" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/app01/myforms.py" beforeDir="false" afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/app01/myforms.py" afterDir="false" />
-    </list>
+    <list default="true" id="0b7a0736-2101-44e7-a9d3-58d892dec55d" name="默认更改列表" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,7 +103,7 @@
       <workItem from="1589596328309" duration="3055000" />
       <workItem from="1589625140156" duration="7020000" />
       <workItem from="1589725585320" duration="670000" />
-      <workItem from="1589882680408" duration="3251000" />
+      <workItem from="1589882680408" duration="3860000" />
     </task>
     <task id="LOCAL-00001" summary="ORM">
       <created>1588516997085</created>
@@ -227,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589885780970</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="forms组件">
+      <created>1589887316783</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1589887316783</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,10 +253,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="777" y="226" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588427216224" />
-    <state x="1051" y="154" key="CommitChangelistDialog2" timestamp="1589885778709">
+    <state x="1051" y="154" key="CommitChangelistDialog2" timestamp="1589887315457">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1051" y="154" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589885778709" />
+    <state x="1051" y="154" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589887315457" />
     <state width="819" height="139" key="GridCell.Tab.0.bottom" timestamp="1588776431239">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -278,10 +282,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="554" y="203" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589851162320" />
-    <state x="644" y="291" key="Vcs.Push.Dialog.v2" timestamp="1589873551681">
+    <state x="644" y="291" key="Vcs.Push.Dialog.v2" timestamp="1589887320304">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="644" y="291" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589873551681" />
+    <state x="644" y="291" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589887320304" />
     <state x="1358" y="302" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1589632812145">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
