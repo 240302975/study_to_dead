@@ -40,6 +40,7 @@ class UserForm(forms.Form):
         else:
             raise  ValidationError("手机号格式错误")
 
+    # 校验密码
     def clean(self):
         pwd=self.cleaned_data.get('pwd')
         r_pwd=self.cleaned_data.get('r_pwd')
