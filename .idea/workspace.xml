@@ -2,36 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b7a0736-2101-44e7-a9d3-58d892dec55d" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/.idea/dataSources.ids" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/.idea/dictionaries/yuan.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/.idea/dictionaries/yuanhao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/.idea/formsdemo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/app01/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/app01/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/app01/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/app01/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/app01/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/app01/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/app01/myforms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/app01/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/app01/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/formsdemo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/formsdemo/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/formsdemo/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/formsdemo/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web框架开发/forms组件/formsdemo/templates/reg.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web框架开发/cookie与session/cookieSession/app01/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/web框架开发/cookie与session/cookieSession/app01/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +41,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -134,6 +106,8 @@
       <workItem from="1589596328309" duration="3055000" />
       <workItem from="1589625140156" duration="7020000" />
       <workItem from="1589725585320" duration="670000" />
+      <workItem from="1589882680408" duration="3860000" />
+      <workItem from="1589889779616" duration="4420000" />
     </task>
     <task id="LOCAL-00001" summary="ORM">
       <created>1588516997085</created>
@@ -205,35 +179,70 @@
       <option name="project" value="LOCAL" />
       <updated>1589806927478</updated>
     </task>
-    <task id="LOCAL-00011" summary="ajax">
-      <created>1589807011727</created>
+    <task id="LOCAL-00011" summary="forms组件">
+      <created>1589851192951</created>
       <option name="number" value="00011" />
       <option name="presentableId" value="LOCAL-00011" />
       <option name="project" value="LOCAL" />
-      <updated>1589807011727</updated>
+      <updated>1589851192951</updated>
     </task>
-    <task id="LOCAL-00012" summary="ajax分页器">
-      <created>1589807318481</created>
+    <task id="LOCAL-00012" summary="forms组件">
+      <created>1589851429519</created>
       <option name="number" value="00012" />
       <option name="presentableId" value="LOCAL-00012" />
       <option name="project" value="LOCAL" />
-      <updated>1589807318481</updated>
+      <updated>1589851429519</updated>
     </task>
-    <task id="LOCAL-00013" summary="ajax分页器">
-      <created>1589808583938</created>
+    <task id="LOCAL-00013" summary="forms组件">
+      <created>1589866963921</created>
       <option name="number" value="00013" />
       <option name="presentableId" value="LOCAL-00013" />
       <option name="project" value="LOCAL" />
-      <updated>1589808583938</updated>
+      <updated>1589866963921</updated>
     </task>
-    <task id="LOCAL-00014" summary="ajax分页器">
-      <created>1589808921744</created>
+    <task id="LOCAL-00014" summary="forms组件">
+      <created>1589867837908</created>
       <option name="number" value="00014" />
       <option name="presentableId" value="LOCAL-00014" />
       <option name="project" value="LOCAL" />
-      <updated>1589808921744</updated>
+      <updated>1589867837908</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="forms组件">
+      <created>1589870293255</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1589870293255</updated>
+    </task>
+    <task id="LOCAL-00016" summary="forms组件">
+      <created>1589873547210</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1589873547210</updated>
+    </task>
+    <task id="LOCAL-00017" summary="forms组件">
+      <created>1589885780970</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1589885780970</updated>
+    </task>
+    <task id="LOCAL-00018" summary="forms组件">
+      <created>1589887316783</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1589887316783</updated>
+    </task>
+    <task id="LOCAL-00019" summary="cookie与session">
+      <created>1589889816441</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1589889816441</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,7 +255,9 @@
     <MESSAGE value="ORM2" />
     <MESSAGE value="ajax" />
     <MESSAGE value="ajax分页器" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajax分页器" />
+    <MESSAGE value="forms组件" />
+    <MESSAGE value="cookie与session" />
+    <option name="LAST_COMMIT_MESSAGE" value="cookie与session" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -254,14 +265,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="777" y="226" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588427216224" />
-    <state x="1363" y="430" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589807144998">
+    <state x="1051" y="154" key="CommitChangelistDialog2" timestamp="1589889814600">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1363" y="430" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1589807144998" />
-    <state x="1087" y="154" key="CommitChangelistDialog2" timestamp="1589808920275">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1087" y="154" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589808920275" />
+    <state x="1051" y="154" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589889814600" />
     <state width="819" height="139" key="GridCell.Tab.0.bottom" timestamp="1588776431239">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -283,14 +290,14 @@
     </state>
     <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1589337432524" />
     <state x="820" y="457" width="425" height="267" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588780242448" />
-    <state x="554" y="203" key="SettingsEditor" timestamp="1589809050201">
+    <state x="554" y="203" key="SettingsEditor" timestamp="1589851162320">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="554" y="203" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589809050201" />
-    <state x="644" y="291" key="Vcs.Push.Dialog.v2" timestamp="1589814929830">
+    <state x="554" y="203" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589851162320" />
+    <state x="644" y="291" key="Vcs.Push.Dialog.v2" timestamp="1589889822324">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="644" y="291" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589814929830" />
+    <state x="644" y="291" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589889822324" />
     <state x="1358" y="302" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1589632812145">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
