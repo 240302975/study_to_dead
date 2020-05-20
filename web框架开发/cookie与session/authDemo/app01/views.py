@@ -16,7 +16,7 @@ def login(request):
         user=auth.authenticate(username=user,password=pwd)
 
         if user:
-            auth.login(request,user)   # request.user:当前登录对象
+            auth.login(request,user)   # request.user:当前登录对象  实现一个用户登录的功能。它本质上会在后端为该用户生成相关session数据。
 
             next_url=request.GET.get("next","/index/")
             return  redirect(next_url)
