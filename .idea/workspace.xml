@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0b7a0736-2101-44e7-a9d3-58d892dec55d" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web框架开发/cookie与session/authDemo/app01/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/web框架开发/cookie与session/authDemo/app01/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589946779476</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="session">
+      <created>1589954355669</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1589954355669</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,10 +285,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="777" y="226" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588427216224" />
-    <state x="1051" y="154" key="CommitChangelistDialog2" timestamp="1589946778132">
+    <state x="1051" y="154" key="CommitChangelistDialog2" timestamp="1589954354196">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1051" y="154" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589946778132" />
+    <state x="1051" y="154" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589954354196" />
     <state width="819" height="139" key="GridCell.Tab.0.bottom" timestamp="1588776431239">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -302,14 +310,14 @@
     </state>
     <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1589337432524" />
     <state x="820" y="457" width="425" height="267" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588780242448" />
-    <state x="554" y="203" key="SettingsEditor" timestamp="1589946875622">
+    <state x="554" y="203" key="SettingsEditor" timestamp="1589954417903">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="554" y="203" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589946875622" />
-    <state x="644" y="291" key="Vcs.Push.Dialog.v2" timestamp="1589946834416">
+    <state x="554" y="203" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589954417903" />
+    <state x="644" y="291" key="Vcs.Push.Dialog.v2" timestamp="1589954424121">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="644" y="291" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589946834416" />
+    <state x="644" y="291" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589954424121" />
     <state x="1358" y="302" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1589632812145">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

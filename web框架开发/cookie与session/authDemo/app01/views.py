@@ -29,9 +29,9 @@ def login(request):
 @login_required
 def index(request):
 
-    # print("request.user:",request.user.username)
+    # print("request.user:",request.user.username)  没有用户的话打印匿名AnonymousUser
     # print("request.user:",request.user.id)
-    # print("request.user:",request.user.is_anonymous)
+    # print("request.user:",request.user.is_anonymous)  是否为匿名
     #
     # #if request.user.is_anonymous:
     # if not request.user.is_authenticated:
@@ -39,7 +39,7 @@ def index(request):
 
     #username=request.user.username
     #return render(request,"index.html",{"username":username})
-
+    # request.user是全局变量，在视图里可以直接使用
     return render(request,"index.html")
 
 
