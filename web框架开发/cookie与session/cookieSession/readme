@@ -2,11 +2,11 @@
 
 
 
-1 response.set_cookie(key,value)
+1 response.set_cookie(key,value)  设置cookie
 
-2 request.COOKIE.get(key)
+2 request.COOKIE.get(key)  读取cookie
 
-3 request.session[key]=value
+3 request.session[key]=value  写session
           '''
 
             if request.COOKIE.get("sessionid"):
@@ -27,7 +27,7 @@
 
             '''
 
-4 reqeust.session[key]
+4 reqeust.session[key]  读取session
 
    '''
 
@@ -44,7 +44,7 @@
     3 obj.session-data.get("is_login")
     '''
 
-5 request.session.flush()
+5 request.session.flush()  全部删除
 
     '''
     1 randon_str=request.COOKIE.get("sessionid")
