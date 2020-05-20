@@ -118,7 +118,7 @@ def index_session(request):
     '''
     is_login = request.session.get("is_login")
     if not is_login:
-        return redirect("/login_session/")
+        return redirect("/login_session/")  # 跳转登录页面
 
     username = request.session.get("username")
     last_visit_time = request.session.get("last_visit_time")
@@ -129,14 +129,15 @@ def index_session(request):
 def logout(request):
     # del request.session["is_login"]
 
-    request.session.flush()
+    request.session.flush()  # 全部删除
 
     '''
+    flush的操作
     1 randon_str=request.COOKIE.get("sessionid")
 
-    2 django-session.objects.filter(session-key=randon_str).delete()
+    2 django-session.objects.filter(session-key=randon_str).delete()  删除服务器的数据
 
-    3 response.delete_cookie("sessionid",randon_str)
+    3 response.delete_cookie("sessionid",randon_str)  删除cookie的数据
 
     '''
 
