@@ -15,13 +15,13 @@
 
 	     		2 auth.login(request,user)   # request.user:当前登录对象 
 
-	     		3 auth.logout(request)    
+	     		3 auth.logout(request)    # 注销
 
-	        from django.contrib.auth.models import User # User==auth_user
+	        from django.contrib.auth.models import User # User==auth_user这张表
 
-	            4 request.user.is_authenticated() 
+	            4 request.user.is_authenticated()   # 校验
 
-	            5 user = User.objects.create_user（username='',password='',email=''）
+	            5 user = User.objects.create_user（username='',password='',email=''） #创建用户
 
 
 	        补充：

@@ -39,7 +39,7 @@ def index(request):
 
     #username=request.user.username
     #return render(request,"index.html",{"username":username})
-    # request.user是全局变量，在视图里可以直接使用
+    # request.user是全局变量，在视图里不需要传，可以直接使用
     return render(request,"index.html")
 
 
@@ -73,7 +73,7 @@ def reg(request):
         pwd = request.POST.get("pwd")
 
         #User.objects.create(username=user,password=pwd)
-        user=User.objects.create_user(username=user,password=pwd)
+        user=User.objects.create_user(username=user,password=pwd)  # auth 提供的一个创建新用户的方法
 
         return redirect("/login/")
 
