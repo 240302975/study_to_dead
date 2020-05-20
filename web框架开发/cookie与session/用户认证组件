@@ -47,9 +47,7 @@
             总结：
 
                  
-                     if not: auth.login(request,user)   request.user == AnonymousUser()
+                     if not: auth.login(request,user)   request.user == AnonymousUser()默认为匿名用户
 
                      else:request.user==登录对象
-                     request.user是一个全局变量
-
-                     在任何视图和模板直接使用
+                     request.user是一个全局变量，可以在任何视图和模板中直接使用
